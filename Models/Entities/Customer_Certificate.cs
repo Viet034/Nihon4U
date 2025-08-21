@@ -1,4 +1,4 @@
-﻿namespace Nihon4U.Models;
+﻿namespace Nihon4U.Models.Entities;
 
 public class Customer_Certificate
 {
