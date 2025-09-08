@@ -1,8 +1,10 @@
-﻿namespace Nihon4U.Models.Entities;
+﻿using Nihon4U.Models.Enums;
+
+namespace Nihon4U.Models.Entities;
 
 public class CourseEnrollment : BaseEntity
 {
-    public string Status { get; set; }
+    public EnrollmentStatus Status { get; set; }
     public int CustomerId { get; set; }
     public int CourseId { get; set; }
     public DateTime EnrolledAt { get; set; }

@@ -2,7 +2,9 @@
 
 public class Customer_Certificate : BaseEntity
 {
+
     public int CustomerId { get; set; } 
+    
     public int CertificateId { get; set; } 
     public DateTime IssuedAt { get; set; } 
     public double ScorePercentage { get; set; } 
