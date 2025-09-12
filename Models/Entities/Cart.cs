@@ -2,8 +2,7 @@
 
 public class Cart : BaseEntity
 {
-    public int UserId { get; set; } 
-    public DateTime UpdatedAt { get; set; }
-    public virtual User User { get; set; } 
-    public virtual ICollection<CartItem> Items { get; set; } = new List<CartItem>(); 
+    public int CustomerId { get; set; } 
+    public virtual Customer Customer { get; set; }
+    public virtual ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
 }

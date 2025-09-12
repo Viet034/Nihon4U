@@ -1,8 +1,10 @@
-﻿namespace Nihon4U.Models.Entities;
+﻿using Nihon4U.Models.Enums;
+
+namespace Nihon4U.Models.Entities;
 
 public class Test : BaseEntity
 {
-    public string Status { get; set; } 
+    public TestStatus Status { get; set; } 
     public int CourseId { get; set; } 
     public bool IsFinal { get; set; }
     public double PassPercentage { get; set; } // pass percentage

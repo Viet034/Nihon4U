@@ -1,8 +1,10 @@
-﻿namespace Nihon4U.Models.Entities;
+﻿using Nihon4U.Models.Enums;
+
+namespace Nihon4U.Models.Entities;
 
 public class Lesson : BaseEntity
 {
-    public string Status { get; set; }
+    public LessonStatus Status { get; set; }
     public int CourseId { get; set; } 
     public int OrderIndex { get; set; } 
     public bool IsFreePreview { get; set; } // free trial?

@@ -1,8 +1,10 @@
-﻿namespace Nihon4U.Models.Entities;
+﻿using Nihon4U.Models.Enums;
+
+namespace Nihon4U.Models.Entities;
 
 public class Certificate : BaseEntity
 {
-    public string Status { get; set; } 
+    public CertificateStatus Status { get; set; } 
     public int CourseId { get; set; } 
     public string TemplateUrl { get; set; } // PDF template URL
     public double MinPassPercentage { get; set; } // Default >= 70
