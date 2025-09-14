@@ -147,3 +147,4 @@ public class CourseService : ICourseService
         return _mapper.Map<IEnumerable<CourseResponseDTO>>(enrollments);
     }
 }
+

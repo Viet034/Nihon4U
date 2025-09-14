@@ -19,3 +19,4 @@ public class ResetPasswordRequestDTO
     [Compare("NewPassword")]
     public string ConfirmNewPassword { get; set; } = string.Empty;
 }
+

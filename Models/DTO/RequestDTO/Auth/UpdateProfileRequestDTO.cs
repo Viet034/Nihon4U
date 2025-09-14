@@ -16,3 +16,4 @@ public class UpdateProfileRequestDTO
     public string? Address { get; set; }
     public string? ImageURL { get; set; }
 }
+

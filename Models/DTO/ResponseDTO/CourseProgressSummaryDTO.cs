@@ -30,3 +30,4 @@ public class LessonProgressSummaryDTO
     public DateTime? LastAccessed { get; set; }
     public DateTime? CompletedAt { get; set; }
 }
+

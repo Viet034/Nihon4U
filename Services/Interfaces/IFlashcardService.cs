@@ -20,3 +20,4 @@ public interface IFlashcardService
     Task<FlashcardStudySessionResponseDTO> CompleteStudySessionAsync(int sessionId, StudySessionResultDTO resultDto);
     Task<FlashcardStatisticsResponseDTO> GetFlashcardStatisticsAsync(int customerId, int? lessonId = null);
 }
+

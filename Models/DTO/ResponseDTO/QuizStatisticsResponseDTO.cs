@@ -27,3 +27,4 @@ public class ScoreDistributionDTO
     public int Count { get; set; }
     public double Percentage { get; set; }
 }
+

@@ -35,3 +35,4 @@ public class FlashcardMasteryDTO
     public DateTime LastReviewed { get; set; }
     public DateTime NextReview { get; set; }
 }
+

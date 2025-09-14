@@ -34,3 +34,4 @@ public class MonthlyProgressDTO
     public int TimeSpent { get; set; } // seconds
     public int StudyDays { get; set; }
 }
+

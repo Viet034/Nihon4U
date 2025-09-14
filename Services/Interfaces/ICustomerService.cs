@@ -19,3 +19,4 @@ public interface ICustomerService
     Task<CustomerResponseDTO?> GetCustomerWithEnrollmentsAsync(int id);
     Task<CustomerResponseDTO?> GetCustomerWithOrdersAsync(int id);
 }
+

@@ -20,3 +20,4 @@ public interface IOrderService
     Task<decimal> GetTotalRevenueAsync();
     Task<decimal> GetRevenueByDateRangeAsync(DateTime startDate, DateTime endDate);
 }
+

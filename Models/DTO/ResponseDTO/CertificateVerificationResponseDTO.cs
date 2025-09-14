@@ -13,3 +13,4 @@ public class CertificateVerificationResponseDTO
     public string Status { get; set; } = string.Empty; // Valid, Revoked, Expired
     public string? RevocationReason { get; set; }
 }
+

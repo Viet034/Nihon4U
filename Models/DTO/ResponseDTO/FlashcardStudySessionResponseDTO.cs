@@ -16,3 +16,4 @@ public class FlashcardStudySessionResponseDTO
     public string Status { get; set; } = string.Empty; // Active, Completed
     public List<FlashcardResponseDTO> Flashcards { get; set; } = new();
 }
+

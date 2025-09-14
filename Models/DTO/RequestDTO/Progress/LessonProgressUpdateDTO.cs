@@ -18,3 +18,4 @@ public class LessonProgressUpdateDTO
     public DateTime? CompletedAt { get; set; }
     public string? Notes { get; set; }
 }
+

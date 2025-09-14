@@ -18,3 +18,4 @@ public interface ICourseMaterialService
     Task<string> GetMaterialDownloadUrlAsync(int materialId);
     Task<MaterialAccessResponseDTO> CheckMaterialAccessAsync(int customerId, int materialId);
 }
+
