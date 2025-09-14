@@ -18,3 +18,4 @@ public interface ICourseService
     Task<IEnumerable<CourseResponseDTO>> SearchCoursesAsync(string keyword);
     Task<IEnumerable<CourseResponseDTO>> GetCoursesByCustomerIdAsync(int customerId);
 }
+

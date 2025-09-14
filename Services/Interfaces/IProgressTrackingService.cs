@@ -19,3 +19,4 @@ public interface IProgressTrackingService
     Task<OverallProgressDTO> GetOverallProgressAsync(int customerId);
     Task<bool> ResetCourseProgressAsync(int customerId, int courseId);
 }
+

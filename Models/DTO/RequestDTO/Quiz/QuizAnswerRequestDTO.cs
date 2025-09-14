@@ -21,3 +21,4 @@ public class QuestionAnswerDTO
 
     public int TimeSpent { get; set; } // seconds
 }
+

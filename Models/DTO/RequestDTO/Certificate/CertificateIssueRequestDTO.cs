@@ -17,3 +17,4 @@ public class CertificateIssueRequestDTO
     public DateTime? CompletedAt { get; set; }
     public string? Notes { get; set; }
 }
+

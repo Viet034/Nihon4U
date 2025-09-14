@@ -188,3 +188,4 @@
 4. **Documentation**: Swagger UI có sẵn cho API documentation
 5. **Architecture**: Tuân thủ Clean Architecture pattern
 6. **Enum Usage**: Tất cả status fields sử dụng enum thay vì string
+

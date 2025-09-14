@@ -19,3 +19,4 @@ public interface ICourseEnrollmentService
     Task<IEnumerable<CourseEnrollmentResponseDTO>> GetActiveEnrollmentsByCustomerIdAsync(int customerId);
     Task<bool> EnrollCustomerToCourseAsync(int customerId, int courseId, int? orderId = null);
 }
+

@@ -25,3 +25,4 @@ public class DailyNotificationStatsDTO
     public int Read { get; set; }
     public int Unread { get; set; }
 }
+

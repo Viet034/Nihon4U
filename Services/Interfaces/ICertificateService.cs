@@ -21,3 +21,4 @@ public interface ICertificateService
     Task<byte[]> GenerateCertificatePDFAsync(int customerCertificateId);
     Task<string> GetCertificateDownloadUrlAsync(int customerCertificateId);
 }
+

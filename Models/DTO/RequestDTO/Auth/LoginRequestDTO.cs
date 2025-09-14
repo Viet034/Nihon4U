@@ -14,3 +14,4 @@ public class LoginRequestDTO
 
     public bool RememberMe { get; set; } = false;
 }
+

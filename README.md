@@ -233,3 +233,4 @@ Nihon4U/
 - Service layer chứa toàn bộ business logic, Controller chỉ xử lý HTTP requests
 - AutoMapper được sử dụng để mapping giữa Entity và DTO
 - Entity Framework được cấu hình với MySQL và lazy loading
+

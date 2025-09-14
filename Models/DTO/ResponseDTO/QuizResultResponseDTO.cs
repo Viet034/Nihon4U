@@ -24,3 +24,4 @@ public class QuestionResultDTO
     public bool IsCorrect { get; set; }
     public int TimeSpent { get; set; }
 }
+

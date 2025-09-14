@@ -24,3 +24,4 @@ public class FlashcardResultDTO
     public int TimeSpent { get; set; } // seconds
     public bool WasCorrect { get; set; }
 }
+

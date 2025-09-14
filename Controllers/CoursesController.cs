@@ -148,3 +148,4 @@ public class CoursesController : ControllerBase
         return Ok(new { message = "Course status updated successfully" });
     }
 }
+

@@ -18,3 +18,4 @@ public interface IQuizService
     Task<bool> RemoveQuestionFromQuizAsync(int quizId, int questionId);
     Task<QuizStatisticsResponseDTO> GetQuizStatisticsAsync(int quizId);
 }
+

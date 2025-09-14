@@ -16,3 +16,4 @@ public interface ICartService
     Task<bool> CheckItemInCartAsync(int customerId, int courseId);
     Task<CartResponseDTO?> GetCartWithItemsAsync(int customerId);
 }
+

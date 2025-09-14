@@ -20,3 +20,4 @@ public interface ILessonService
     Task<bool> UpdateLessonOrderAsync(int lessonId, int newOrderIndex);
     Task<IEnumerable<LessonResponseDTO>> GetFreePreviewLessonsAsync(int courseId);
 }
+

@@ -10,3 +10,4 @@ public class MaterialAccessResponseDTO
     public DateTime? AccessExpiresAt { get; set; }
     public bool IsFreePreview { get; set; }
 }
+

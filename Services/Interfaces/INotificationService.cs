@@ -22,3 +22,4 @@ public interface INotificationService
     Task<NotificationResponseDTO> SendPaymentSuccessNotificationAsync(int customerId, int orderId);
     Task<NotificationStatisticsResponseDTO> GetNotificationStatisticsAsync(int customerId);
 }
+

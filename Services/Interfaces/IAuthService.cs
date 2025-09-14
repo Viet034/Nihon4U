@@ -17,3 +17,4 @@ public interface IAuthService
     Task<UserResponseDTO?> GetCurrentUserAsync(string token);
     Task<bool> UpdateProfileAsync(int userId, UpdateProfileRequestDTO updateProfileRequest);
 }
+
